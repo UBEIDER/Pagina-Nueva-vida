@@ -1,64 +1,304 @@
-<! DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
-    <head>
-        <title>Mi página web</title>
-    </head>
-    <body>
-<header>
-        <h1>CASA FUNERALES Y PRE-EXEQUIALES NUEVA VIDA SAS<h1>
-        </header>
-        <a href="./inicio.html">INICIO</a>
-        <a href="" >NOSOTROS</a>
-        <a href=""  >BIOGRAFIA</a>       
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio | Corporación Semilla de Fe del Bajo Cauca</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ===================== CABECERA ===================== -->
+    <header class="cabecera">
+        <a href="index.html" class="marca">
+            <img src="imagenes/logo.png" alt="Logo Corporación Semilla de Fe">
+            <span>Corporación Semilla de Fe<br>del Bajo Cauca</span>
+        </a>
+        <nav class="menu">
+            <a href="index.html" class="activo">Inicio</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="programas.html">Programas</a>
+            <a href="proyectos.html">Proyectos</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="contacto.html#donar" class="boton-donar"><i class="fa-solid fa-heart"></i> Donar</a>
+        </nav>
     </header>
-<main>
 
-    <img src="290085810_579669196944479_1073282455970684482_n.jpg" />
+    <!-- ===================== PORTADA ===================== -->
+    <!-- Cada diapositiva es un enlace a su programa o evento -->
+    <section class="portada" aria-label="Programas y eventos destacados">
 
-    <section>
-            <P>Planes de Previsión Exequial y Servicios Funerarios Integrales</P>
-            <H4>PLANES EXEQUIALES</H4>
-        </article>
-            <hr />    
-            <article>
-<div> 
+        <a href="programas.html" class="diapositiva activa" style="--foto: url('imagenes/portada.jpg'); --posicion: center 65%">
+            <div class="portada-contenido">
+                <p class="etiqueta-portada">Niños · Familias · Comunidades · Un mejor futuro</p>
+                <h1>Corporación Semilla de Fe<br>del Bajo Cauca</h1>
+                <p class="lema">"Sembrando amor, cultivando <span>esperanza</span><br>y transformando vidas."</p>
+                <span class="boton boton-verde">
+                    <i class="fa-solid fa-seedling"></i> Conoce nuestro trabajo
+                    <i class="fa-solid fa-chevron-right"></i>
+                </span>
+            </div>
+        </a>
 
-    <P>PLAN DIAMANTE</P>
-    <ol>
-        <li>Traslado del cuerpo a nivel nacional</li>
-        <li>Recogida y Preservacion del cuerpo</li>
-        <li>Cofre Mortuorio</li>
-        <li>Dos(2) Ramos florales</li>
-        <li>Velacion por 24 Horas</li>
-        <li>Servicio de Cafeteria</li>
-        <li>Cinta Con El nombre impreso del Fallecido</li>
-    </div>
-                </article>
-                    <hr />
-            <article>
-<div>
+        <a href="programas.html#regalo-del-cielo" class="diapositiva" style="--foto: url('imagenes/eventos/regalos-del-cielo-fondo.jpg')">
+            <div class="portada-contenido con-volante">
+                <div>
+                    <p class="etiqueta-portada">Próximo evento · Noviembre y diciembre 2026</p>
+                    <h1>Regalos del Cielo</h1>
+                    <p class="lema">Recreación, alimentos y <span>regalos</span><br>para los niños de Caucasia.</p>
+                    <ul class="fechas-evento">
+                        <li><i class="fa-solid fa-location-dot"></i> Barrio El Kiriki · 29 de noviembre</li>
+                        <li><i class="fa-solid fa-location-dot"></i> Barrio La Victoria · 6 de diciembre</li>
+                    </ul>
+                    <span class="boton boton-verde">
+                        <i class="fa-solid fa-gift"></i> Conoce la campaña
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </span>
+                </div>
+                <img class="volante" src="imagenes/eventos/regalos-del-cielo-2026.jpg" alt="Volante del evento Regalos del Cielo 2026">
+            </div>
+        </a>
 
-    <h5>PLAN FAMILIAR</h5>
-    <ol>
-        <li>Traslado del Cuerpo 360 km</li>
-        <li>Recogida y Preservacion del cuerpo</li>
-        <li>Cofre Mortuorio Tipo Plan</li>
-    </div>
+        <a href="programas.html#refuerzo-escolar" class="diapositiva" style="--foto: url('imagenes/proyectos/2026-refuerzo-1.jpg')">
+            <div class="portada-contenido">
+                <p class="etiqueta-portada">Programa · Barrio La Victoria</p>
+                <h1>Refuerzo escolar</h1>
+                <p class="lema">Clases de lectura y escritura,<br>espacios lúdicos y <span>fe</span>.</p>
+                <span class="boton boton-verde">
+                    <i class="fa-solid fa-book-open"></i> Conoce el programa
+                    <i class="fa-solid fa-chevron-right"></i>
+                </span>
+            </div>
+        </a>
 
-                </article>
-                </section>
-        </main>
-            <footer> 
-                <P>
-                    ENCUENTRANOS EN:
-                </P>
-                <span>WhatsApp 3022703710</span>
-                <span>facebook Grupo asociado Nueva Vida</span>
-            </footer>
+        <a href="programas.html#medio-ambiente" class="diapositiva" style="--foto: url('imagenes/proyectos/2026-siembra-arboles-1.jpg')">
+            <div class="portada-contenido">
+                <p class="etiqueta-portada">Programa · Medio ambiente</p>
+                <h1>Siembra de árboles</h1>
+                <p class="lema">Sembramos semillas de vida y enseñamos<br>a cuidar la <span>naturaleza</span>.</p>
+                <span class="boton boton-verde">
+                    <i class="fa-solid fa-tree"></i> Conoce el programa
+                    <i class="fa-solid fa-chevron-right"></i>
+                </span>
+            </div>
+        </a>
 
-    </ol>
+        <button class="flecha flecha-anterior" aria-label="Diapositiva anterior"><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="flecha flecha-siguiente" aria-label="Diapositiva siguiente"><i class="fa-solid fa-chevron-right"></i></button>
+        <div class="puntos"></div>
+    </section>
 
+    <!-- ===================== INFORMACIÓN GENERAL ===================== -->
+    <section class="seccion">
+        <div class="quienes">
+            <div class="quienes-texto">
+                <p class="etiqueta">Sobre nosotros</p>
+                <h2>Quiénes somos</h2>
+                <p>
+                    Somos una organización social comprometida con el desarrollo humano
+                    y social de los niños, niñas, adolescentes, familias y comunidades.
+                    Trabajamos con amor, solidaridad y esperanza, porque creemos que
+                    cada persona merece una oportunidad y que, unidos, podemos sembrar
+                    un futuro mejor.
+                </p>
+                <a href="nosotros.html" class="boton boton-borde">
+                    Conoce más sobre nosotros <i class="fa-solid fa-chevron-right"></i>
+                </a>
+            </div>
 
-           
-        </body>
-        </html>
+            <div class="cifras">
+                <div class="cifra cifra-verde">
+                    <div class="cifra-icono"><i class="fa-solid fa-calendar-check"></i></div>
+                    <h3>Desde</h3>
+                    <strong>2021</strong>
+                    <p>Sembrando esperanza en las comunidades</p>
+                </div>
+                <div class="cifra cifra-rosa">
+                    <div class="cifra-icono"><i class="fa-solid fa-heart"></i></div>
+                    <strong>15+</strong>
+                    <h3>Jornadas realizadas</h3>
+                    <p>Campañas, refuerzo, salud y apoyo social</p>
+                </div>
+                <div class="cifra cifra-azul">
+                    <div class="cifra-icono"><i class="fa-solid fa-location-dot"></i></div>
+                    <strong>4</strong>
+                    <h3>Barrios atendidos</h3>
+                    <p>En el Bajo Cauca</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== PROGRAMAS (resumen) ===================== -->
+    <section class="seccion seccion-gris">
+        <div class="contenedor">
+            <p class="etiqueta centrado">Nuestro trabajo</p>
+            <h2 class="centrado">Nuestros programas</h2>
+            <p class="intro">
+                Desarrollamos programas que promueven el bienestar, la educación, la fe
+                y el desarrollo integral de nuestras comunidades.
+            </p>
+
+            <div class="resumen-programas">
+                <a href="programas.html#regalo-del-cielo" class="resumen-programa">
+                    <img src="imagenes/programas/campana-del-cielo.jpg" alt="Niño con la cara pintada">
+                    <div class="programa-icono icono-verde"><i class="fa-solid fa-gift"></i></div>
+                    <h3>Campaña "Regalo del Cielo"</h3>
+                    <p>Alegría, alimentación y fe para los niños cada fin de año.</p>
+                    <span class="ver-mas">Conoce más <i class="fa-solid fa-arrow-right"></i></span>
+                </a>
+                <a href="programas.html#refuerzo-escolar" class="resumen-programa">
+                    <img src="imagenes/proyectos/2026-refuerzo-1.jpg" alt="Niños en clase de refuerzo escolar">
+                    <div class="programa-icono icono-rosa"><i class="fa-solid fa-book-open"></i></div>
+                    <h3>Refuerzo escolar</h3>
+                    <p>Docentes activos apoyando la lectura y la escritura, y entrega de kits escolares.</p>
+                    <span class="ver-mas">Conoce más <i class="fa-solid fa-arrow-right"></i></span>
+                </a>
+                <a href="programas.html#medio-ambiente" class="resumen-programa">
+                    <img src="imagenes/proyectos/2026-siembra-arboles-1.jpg" alt="Niños en la jornada de siembra de árboles">
+                    <div class="programa-icono icono-azul"><i class="fa-solid fa-leaf"></i></div>
+                    <h3>Medio ambiente y desarrollo comunitario</h3>
+                    <p>Siembra de árboles, capacitación, crecimiento y desarrollo y Plan de Intervenciones Colectivas.</p>
+                    <span class="ver-mas">Conoce más <i class="fa-solid fa-arrow-right"></i></span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== VIDEOS ===================== -->
+    <section class="seccion">
+        <p class="etiqueta centrado">Así sembramos esperanza</p>
+        <h2 class="centrado">Nuestros videos</h2>
+        <p class="intro">Mira algunos momentos de nuestras jornadas en los barrios.</p>
+
+        <video class="video-destacado" controls preload="none" poster="videos/2026-presentacion.jpg">
+            <source src="videos/2026-presentacion.mp4" type="video/mp4">
+        </video>
+
+        <div class="videos">
+            <figure class="video">
+                <iframe src="https://drive.google.com/file/d/1XF3HFVmwIJDpq-PKMwLGwbWcvgxSmMJc/preview" allow="autoplay" allowfullscreen loading="lazy" title="Jornada en La Victoria 2022"></iframe>
+                <figcaption>Jornada en el barrio La Victoria · 2022</figcaption>
+            </figure>
+            <figure class="video">
+                <iframe src="https://drive.google.com/file/d/1mhLzE0aqI0WU-MOrVR_4GeX92crznn_F/preview" allow="autoplay" allowfullscreen loading="lazy" title="Regalo del Cielo en El Kiriki 2025"></iframe>
+                <figcaption>"Regalo del Cielo" en El Kiriki · 2025</figcaption>
+            </figure>
+            <figure class="video">
+                <iframe src="https://drive.google.com/file/d/13OdPgzruR7KY_nBrsdBK06jsiB8ZXxF8/preview" allow="autoplay" allowfullscreen loading="lazy" title="Jornada de crecimiento y desarrollo 2025"></iframe>
+                <figcaption>Crecimiento y desarrollo en La Victoria · 2025</figcaption>
+            </figure>
+        </div>
+
+        <h3 class="subtitulo-videos">Momentos "Regalo del Cielo" 2025</h3>
+        <div class="videos-verticales">
+            <iframe src="https://drive.google.com/file/d/19XlKFESHPHXDyg92EDwM9y4x3JrEygWH/preview" allow="autoplay" allowfullscreen loading="lazy" title="Regalo del Cielo 2025, video 1"></iframe>
+            <iframe src="https://drive.google.com/file/d/1xktSe1zRVcYpcGVDAvm4ztruFHbDNbuX/preview" allow="autoplay" allowfullscreen loading="lazy" title="Regalo del Cielo 2025, video 2"></iframe>
+            <iframe src="https://drive.google.com/file/d/1MKbp5gt8KcIziy1rt_3vY1d2hVKEUQS1/preview" allow="autoplay" allowfullscreen loading="lazy" title="Regalo del Cielo 2025, video 3"></iframe>
+            <iframe src="https://drive.google.com/file/d/1Xy7U79tjfF34xlu51ueTHelFOrYIZ7m9/preview" allow="autoplay" allowfullscreen loading="lazy" title="Regalo del Cielo 2025, video 4"></iframe>
+        </div>
+    </section>
+
+    <!-- ===================== PROYECTOS E IMPACTO ===================== -->
+    <section class="impacto">
+        <div class="impacto-contenido">
+            <div class="impacto-texto">
+                <p class="etiqueta">Nuestros resultados</p>
+                <h2>Proyectos e impacto</h2>
+                <p>
+                    Desde 2021 llevamos alegría, alimentación, educación y apoyo a niños,
+                    niñas y familias de los barrios Pueblo Nuevo, La Victoria, El Kiriki
+                    y El Camello.
+                </p>
+                <a href="proyectos.html" class="boton boton-verde">
+                    Ver proyectos e impacto <i class="fa-solid fa-chevron-right"></i>
+                </a>
+            </div>
+            <div class="impacto-fotos">
+                <img src="imagenes/proyectos/2023-el-kiriki-1.jpg" alt="Niños celebrando en El Kiriki">
+                <img src="imagenes/proyectos/2025-la-victoria-kits-1.jpg" alt="Niños recibiendo kits escolares">
+                <img src="imagenes/proyectos/2024-la-victoria-2.jpg" alt="Equipo de la corporación con la Policía Comunitaria">
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== EMPRESAS ALIADAS ===================== -->
+    <section class="seccion">
+        <p class="etiqueta centrado">Juntos sembramos más</p>
+        <h2 class="centrado">Empresas aliadas</h2>
+
+        <div class="aliado">
+            <img src="imagenes/aliados/nueva-vida.png" alt="Logo Casa Funerales y Pre-exequiales Nueva Vida SAS">
+            <div class="aliado-texto">
+                <h3>Casa Funerales y Pre-exequiales Nueva Vida SAS</h3>
+                <p>
+                    Gracias a esta alianza, nuestras familias pueden afiliarse a un plan
+                    exequial y tener la tranquilidad de estar protegidas.
+                </p>
+                <a href="https://wa.me/573147490549?text=Hola%2C%20quiero%20afiliarme%20al%20plan%20exequial%20de%20Nueva%20Vida%20a%20trav%C3%A9s%20de%20la%20Corporaci%C3%B3n%20Semilla%20de%20Fe." target="_blank" rel="noopener" class="boton boton-azul">
+                    <i class="fa-solid fa-file-signature"></i> Quiero afiliarme
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== LLAMADO A AYUDAR ===================== -->
+    <section class="llamado">
+        <div class="llamado-contenido">
+            <h2>Tú también puedes sembrar esperanza</h2>
+            <p>Con tu donación, tu tiempo o tus ideas, más niños del Bajo Cauca tendrán un mejor mañana.</p>
+            <div class="llamado-botones">
+                <a href="contacto.html#donar" class="boton boton-blanco"><i class="fa-solid fa-heart"></i> Quiero donar</a>
+                <a href="contacto.html" class="boton boton-borde-blanco">Contáctanos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== PIE DE PÁGINA ===================== -->
+    <footer class="pie">
+        <div class="pie-contenido">
+            <div class="pie-marca">
+                <img src="imagenes/logo.png" alt="Logo Corporación Semilla de Fe">
+                <div>
+                    <strong>Corporación Semilla de Fe<br>del Bajo Cauca</strong>
+                    <p>Sembrando amor, cultivando esperanza y transformando vidas.</p>
+                </div>
+            </div>
+            <div class="pie-columna">
+                <h4>Contacto</h4>
+                <p><i class="fa-solid fa-location-dot"></i> Calle 18 #14A-35, Barrio Centenario, Caucasia, Antioquia</p>
+                <p><i class="fa-solid fa-phone"></i> <a href="tel:+573147490549">314 749 0549</a></p>
+                <p><i class="fa-solid fa-envelope"></i> <a href="mailto:semilladefebajocauca@gmail.com">semilladefebajocauca@gmail.com</a></p>
+            </div>
+            <div class="pie-columna">
+                <h4>Enlaces rápidos</h4>
+                <div class="pie-enlaces">
+                    <a href="index.html">Inicio</a>
+                    <a href="proyectos.html">Proyectos</a>
+                    <a href="nosotros.html">Nosotros</a>
+                    <a href="contacto.html">Contacto</a>
+                    <a href="programas.html">Programas</a>
+                    <a href="contacto.html#donar">Donar</a>
+                </div>
+            </div>
+            <div class="pie-columna">
+                <h4>Síguenos</h4>
+                <div class="redes">
+                    <a href="#" class="red-facebook" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="red-instagram" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="red-youtube" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://wa.me/573147490549?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20la%20Corporaci%C3%B3n%20Semilla%20de%20Fe." target="_blank" rel="noopener" class="red-whatsapp" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                <p class="derechos">© 2026 Corporación Semilla de Fe del Bajo Cauca.<br>Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

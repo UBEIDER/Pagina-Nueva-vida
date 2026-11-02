@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Corporación Semilla de Fe del Bajo Cauca</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ===================== CABECERA ===================== -->
+    <header class="cabecera">
+        <a href="index.html" class="marca">
+            <img src="imagenes/logo.png" alt="Logo Corporación Semilla de Fe">
+            <span>Corporación Semilla de Fe<br>del Bajo Cauca</span>
+        </a>
+        <nav class="menu">
+            <a href="index.html">Inicio</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="programas.html">Programas</a>
+            <a href="proyectos.html">Proyectos</a>
+            <a href="contacto.html" class="activo">Contacto</a>
+            <a href="#donar" class="boton-donar"><i class="fa-solid fa-heart"></i> Donar</a>
+        </nav>
+    </header>
+
+    <!-- ===================== BANNER ===================== -->
+    <section class="banner-contacto">
+        <div class="banner-contacto-texto">
+            <p class="etiqueta-portada">Estamos para ti</p>
+            <h1>¡Hablemos!</h1>
+            <p>
+                ¿Quieres donar, ser voluntario, aliarte con nosotros o conocer más de
+                nuestro trabajo? Escríbenos, te respondemos con mucho gusto.
+            </p>
+            <a href="https://wa.me/573147490549?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20la%20Corporaci%C3%B3n%20Semilla%20de%20Fe." target="_blank" rel="noopener" class="boton boton-whatsapp boton-grande">
+                <i class="fa-brands fa-whatsapp"></i> Escríbenos por WhatsApp
+            </a>
+        </div>
+        <img src="imagenes/proyectos/2025-la-victoria-cine-3.jpg" alt="Equipo de la corporación con niños del barrio">
+    </section>
+
+    <!-- ===================== FORMAS DE CONTACTO ===================== -->
+    <section class="seccion">
+        <div class="contactos">
+            <a href="https://wa.me/573147490549" target="_blank" rel="noopener" class="contacto-tarjeta" style="--color: #25d366">
+                <div class="contacto-icono"><i class="fa-brands fa-whatsapp"></i></div>
+                <h3>WhatsApp</h3>
+                <p>314 749 0549</p>
+                <span>Escribir ahora <i class="fa-solid fa-arrow-right"></i></span>
+            </a>
+            <a href="tel:+573147490549" class="contacto-tarjeta" style="--color: var(--azul)">
+                <div class="contacto-icono"><i class="fa-solid fa-phone"></i></div>
+                <h3>Llámanos</h3>
+                <p>314 749 0549</p>
+                <span>Llamar <i class="fa-solid fa-arrow-right"></i></span>
+            </a>
+            <a href="mailto:semilladefebajocauca@gmail.com" class="contacto-tarjeta" style="--color: var(--rosa)">
+                <div class="contacto-icono"><i class="fa-solid fa-envelope"></i></div>
+                <h3>Correo</h3>
+                <p class="correo">semilladefebajocauca@gmail.com</p>
+                <span>Escribir correo <i class="fa-solid fa-arrow-right"></i></span>
+            </a>
+            <a href="https://www.google.com/maps/search/?api=1&query=Calle%2018%20%2314A-35%2C%20Barrio%20Centenario%2C%20Caucasia%2C%20Antioquia" target="_blank" rel="noopener" class="contacto-tarjeta" style="--color: var(--naranja)">
+                <div class="contacto-icono"><i class="fa-solid fa-location-dot"></i></div>
+                <h3>Ubicación</h3>
+                <p>Calle 18 #14A-35, Barrio Centenario<br>Caucasia, Antioquia</p>
+                <span>Cómo llegar <i class="fa-solid fa-arrow-right"></i></span>
+            </a>
+        </div>
+    </section>
+
+    <!-- ===================== FORMULARIO + MAPA ===================== -->
+    <section class="seccion-gris">
+        <div class="seccion">
+            <div class="formulario-mapa">
+
+                <form class="formulario" id="formulario">
+                    <p class="etiqueta">Escríbenos</p>
+                    <h2>Envíanos un mensaje</h2>
+                    <p class="formulario-ayuda">Al enviar, se abrirá WhatsApp con tu mensaje listo.</p>
+
+                    <label for="nombre">Tu nombre</label>
+                    <input type="text" id="nombre" placeholder="Ej: María Pérez" required>
+
+                    <label for="motivo">¿En qué te podemos ayudar?</label>
+                    <select id="motivo">
+                        <option>Quiero hacer una donación</option>
+                        <option>Quiero ser voluntario</option>
+                        <option>Quiero ser aliado o patrocinador</option>
+                        <option>Quiero información de los programas</option>
+                        <option>Quiero afiliarme al plan exequial de Nueva Vida</option>
+                        <option>Otro motivo</option>
+                    </select>
+
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" rows="4" placeholder="Escribe aquí tu mensaje..."></textarea>
+
+                    <button type="submit" class="boton boton-whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i> Enviar por WhatsApp
+                    </button>
+                </form>
+
+                <div class="mapa">
+                    <iframe src="https://maps.google.com/maps?q=Calle%2018%20%2314A-35%2C%20Barrio%20Centenario%2C%20Caucasia%2C%20Antioquia&z=16&output=embed" loading="lazy" title="Mapa: Calle 18 #14A-35, Barrio Centenario, Caucasia"></iframe>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== EMPRESAS ALIADAS ===================== -->
+    <section id="aliados" class="seccion">
+        <p class="etiqueta centrado">Juntos sembramos más</p>
+        <h2 class="centrado">Empresas aliadas</h2>
+
+        <div class="aliado">
+            <img src="imagenes/aliados/nueva-vida.png" alt="Logo Casa Funerales y Pre-exequiales Nueva Vida SAS">
+            <div class="aliado-texto">
+                <h3>Casa Funerales y Pre-exequiales Nueva Vida SAS</h3>
+                <p>
+                    Gracias a esta alianza, nuestras familias pueden afiliarse a un plan
+                    exequial y tener la tranquilidad de estar protegidas.
+                </p>
+                <a href="https://wa.me/573147490549?text=Hola%2C%20quiero%20afiliarme%20al%20plan%20exequial%20de%20Nueva%20Vida%20a%20trav%C3%A9s%20de%20la%20Corporaci%C3%B3n%20Semilla%20de%20Fe." target="_blank" rel="noopener" class="boton boton-azul">
+                    <i class="fa-solid fa-file-signature"></i> Quiero afiliarme
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== CÓMO AYUDAR / DONAR ===================== -->
+    <section id="donar" class="ayudar">
+        <div class="seccion">
+            <p class="etiqueta centrado">Súmate a la causa</p>
+            <h2 class="centrado">¿Cómo puedes ayudar?</h2>
+            <p class="intro">
+                Cada aporte, por pequeño que sea, es una semilla que siembra
+                esperanza en un niño del Bajo Cauca.
+            </p>
+
+            <div class="ayudas">
+
+                <!-- Opción 1: donar dinero -->
+                <article class="ayuda ayuda-verde">
+                    <div class="ayuda-icono"><i class="fa-solid fa-hand-holding-dollar"></i></div>
+                    <h3>Donar dinero</h3>
+
+                    <div class="dato-pago">
+                        <h4><i class="fa-solid fa-building-columns"></i> Cuenta bancaria</h4>
+                        <p><span>Banco:</span> Bancolombia</p>
+                        <p><span>Tipo de cuenta:</span> Ahorros</p>
+                        <p><span>Número:</span> 371-000037-94</p>
+                        <p><span>A nombre de:</span> Corporación Semilla de Fe del Bajo Cauca</p>
+                        <p><span>NIT:</span> 901.834.331</p>
+                    </div>
+
+                    <div class="dato-pago">
+                        <h4><i class="fa-solid fa-mobile-screen-button"></i> Nequi</h4>
+                        <p><span>Número:</span> 314 749 0549</p>
+                        <p><span>A nombre de:</span> Dairon Chávez, representante legal</p>
+                    </div>
+
+                    <p class="nota">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        Después de donar, envíanos el comprobante por
+                        <a href="https://wa.me/573147490549?text=Hola%2C%20acabo%20de%20hacer%20una%20donaci%C3%B3n%20a%20la%20Corporaci%C3%B3n%20Semilla%20de%20Fe.%20Te%20env%C3%ADo%20el%20comprobante." target="_blank" rel="noopener">WhatsApp</a>
+                        para agradecerte.
+                    </p>
+                </article>
+
+                <!-- Opción 2: donar en especie -->
+                <article class="ayuda ayuda-rosa">
+                    <div class="ayuda-icono"><i class="fa-solid fa-gift"></i></div>
+                    <h3>Donar en especie</h3>
+                    <p>También puedes ayudarnos con:</p>
+                    <ul>
+                        <li><i class="fa-solid fa-pencil"></i> Útiles escolares</li>
+                        <li><i class="fa-solid fa-puzzle-piece"></i> Juguetes para "Regalo del Cielo"</li>
+                        <li><i class="fa-solid fa-bowl-food"></i> Alimentos</li>
+                        <li><i class="fa-solid fa-shirt"></i> Ropa en buen estado</li>
+                        <li><i class="fa-solid fa-tree"></i> Árboles para sembrar</li>
+                    </ul>
+                    <a href="https://wa.me/573147490549?text=Hola%2C%20quiero%20coordinar%20una%20donaci%C3%B3n%20en%20especie%20para%20la%20Corporaci%C3%B3n%20Semilla%20de%20Fe." target="_blank" rel="noopener" class="boton boton-whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i> Coordinar mi donación
+                    </a>
+                </article>
+
+                <!-- Opción 3: voluntario o aliado -->
+                <article class="ayuda ayuda-azul">
+                    <div class="ayuda-icono"><i class="fa-solid fa-handshake-angle"></i></div>
+                    <h3>Ser voluntario o aliado</h3>
+                    <p>Únete a nuestro equipo y siembra con nosotros:</p>
+                    <ul>
+                        <li><i class="fa-solid fa-chalkboard-user"></i> Docentes para el refuerzo escolar</li>
+                        <li><i class="fa-solid fa-people-group"></i> Ayuda en las jornadas</li>
+                        <li><i class="fa-solid fa-building"></i> Empresas que quieran patrocinar una campaña</li>
+                    </ul>
+                    <a href="https://wa.me/573147490549?text=Hola%2C%20quiero%20ser%20voluntario%20o%20aliado%20de%20la%20Corporaci%C3%B3n%20Semilla%20de%20Fe." target="_blank" rel="noopener" class="boton boton-whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i> Quiero ayudar
+                    </a>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== PIE DE PÁGINA ===================== -->
+    <footer class="pie">
+        <div class="pie-contenido">
+            <div class="pie-marca">
+                <img src="imagenes/logo.png" alt="Logo Corporación Semilla de Fe">
+                <div>
+                    <strong>Corporación Semilla de Fe<br>del Bajo Cauca</strong>
+                    <p>Sembrando amor, cultivando esperanza y transformando vidas.</p>
+                </div>
+            </div>
+            <div class="pie-columna">
+                <h4>Contacto</h4>
+                <p><i class="fa-solid fa-location-dot"></i> Calle 18 #14A-35, Barrio Centenario, Caucasia, Antioquia</p>
+                <p><i class="fa-solid fa-phone"></i> <a href="tel:+573147490549">314 749 0549</a></p>
+                <p><i class="fa-solid fa-envelope"></i> <a href="mailto:semilladefebajocauca@gmail.com">semilladefebajocauca@gmail.com</a></p>
+            </div>
+            <div class="pie-columna">
+                <h4>Enlaces rápidos</h4>
+                <div class="pie-enlaces">
+                    <a href="index.html">Inicio</a>
+                    <a href="proyectos.html">Proyectos</a>
+                    <a href="nosotros.html">Nosotros</a>
+                    <a href="contacto.html">Contacto</a>
+                    <a href="programas.html">Programas</a>
+                    <a href="#donar">Donar</a>
+                </div>
+            </div>
+            <div class="pie-columna">
+                <h4>Síguenos</h4>
+                <div class="redes">
+                    <a href="#" class="red-facebook" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="red-instagram" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="red-youtube" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://wa.me/573147490549?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20la%20Corporaci%C3%B3n%20Semilla%20de%20Fe." target="_blank" rel="noopener" class="red-whatsapp" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                <p class="derechos">© 2026 Corporación Semilla de Fe del Bajo Cauca.<br>Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

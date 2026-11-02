@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos | Corporación Semilla de Fe del Bajo Cauca</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ===================== CABECERA ===================== -->
+    <header class="cabecera">
+        <a href="index.html" class="marca">
+            <img src="imagenes/logo.png" alt="Logo Corporación Semilla de Fe">
+            <span>Corporación Semilla de Fe<br>del Bajo Cauca</span>
+        </a>
+        <nav class="menu">
+            <a href="index.html">Inicio</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="programas.html">Programas</a>
+            <a href="proyectos.html" class="activo">Proyectos</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="contacto.html#donar" class="boton-donar"><i class="fa-solid fa-heart"></i> Donar</a>
+        </nav>
+    </header>
+
+    <!-- ===================== BANNER ===================== -->
+    <section class="banner-pagina" style="--foto: url('imagenes/proyectos/2024-la-victoria-1.jpg')">
+        <p class="etiqueta-portada">Nuestros resultados</p>
+        <h1>Proyectos</h1>
+        <p>Desde 2021 sembrando esperanza en Pueblo Nuevo, La Victoria, El Kiriki y El Camello.</p>
+    </section>
+
+    <!-- ===================== LO MÁS RECIENTE: 2026 ===================== -->
+    <section class="seccion">
+        <p class="etiqueta centrado">Lo más reciente · 2026</p>
+        <h2 class="centrado">Refuerzo escolar en La Victoria</h2>
+        <p class="intro">
+            Desde agosto de 2026 nos reunimos con los niños del barrio La Victoria
+            para reforzar la lectura y la escritura, compartir espacios lúdicos y
+            enseñarles la Palabra de Dios.
+        </p>
+
+        <div class="destacado-2026">
+            <video controls preload="none" poster="videos/2026-presentacion.jpg">
+                <source src="videos/2026-presentacion.mp4" type="video/mp4">
+            </video>
+            <div class="videos-verticales">
+                <video controls preload="none" poster="videos/2026-refuerzo-05-sep.jpg">
+                    <source src="videos/2026-refuerzo-05-sep.mp4" type="video/mp4">
+                </video>
+                <video controls preload="none" poster="videos/2026-refuerzo-12-sep.jpg">
+                    <source src="videos/2026-refuerzo-12-sep.mp4" type="video/mp4">
+                </video>
+                <video controls preload="none" poster="videos/2026-refuerzo-27-oct.jpg">
+                    <source src="videos/2026-refuerzo-27-oct.mp4" type="video/mp4">
+                </video>
+                <video controls preload="none" poster="videos/2026-juegos.jpg">
+                    <source src="videos/2026-juegos.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== PROYECTOS ===================== -->
+    <section class="seccion">
+        <h2 class="centrado">Todas nuestras actividades</h2>
+
+        <!-- Botones para filtrar por año -->
+        <div class="filtros">
+            <button class="filtro activo" data-anio="todos">Todos</button>
+            <button class="filtro" data-anio="2026">2026</button>
+            <button class="filtro" data-anio="2025">2025</button>
+            <button class="filtro" data-anio="2024">2024</button>
+            <button class="filtro" data-anio="2023">2023</button>
+            <button class="filtro" data-anio="2022">2022</button>
+            <button class="filtro" data-anio="2021">2021</button>
+        </div>
+
+        <div class="proyectos">
+
+            <article class="proyecto" data-anio="2026">
+                <img src="imagenes/proyectos/2026-refuerzo-1.jpg" alt="Niños en clase de refuerzo escolar al aire libre">
+                <div class="miniaturas">
+                    <img src="imagenes/proyectos/2026-refuerzo-2.jpg" alt="Niños coloreando en las mesas">
+                    <img src="videos/2026-refuerzo-12-sep.jpg" alt="Clase de refuerzo del 12 de septiembre">
+                    <img src="videos/2026-refuerzo-27-oct.jpg" alt="Clase de refuerzo del 27 de octubre">
+                </div>
+                <div class="proyecto-texto">
+                    <span class="anio">2026</span>
+                    <h3>Refuerzo escolar</h3>
+                    <p class="barrio"><i class="fa-solid fa-location-dot"></i> Barrio La Victoria</p>
+                    <p>Clases de lectura y escritura, espacios lúdicos y enseñanza de la Palabra de Dios, desde agosto.</p>
+                </div>
+            </article>
+
+            <article class="proyecto" data-anio="2026">
+                <img src="imagenes/proyectos/2026-siembra-arboles-1.jpg" alt="Niños con sus árboles en la jornada de siembra">
+                <div class="miniaturas">
+                    <img src="imagenes/proyectos/2026-siembra-arboles-2.jpg" alt="Sembrando un árbol">
+                    <img src="imagenes/proyectos/2026-siembra-arboles-3.jpg" alt="Niños sembrando en la tierra">
+                    <img src="imagenes/proyectos/2026-siembra-arboles-4.jpg" alt="Niños sosteniendo sus árboles">
+                </div>
+                <div class="proyecto-texto">
+                    <span class="anio">2026</span>
+                    <h3>Siembra de árboles</h3>
+                    <p class="barrio"><i class="fa-solid fa-tree"></i> Medio ambiente</p>
+                    <p>Jornada con los niños para sembrar árboles y aprender a cuidar la naturaleza.</p>
+                </div>
+            </article>
+
+            <article class="proyecto" data-anio="2026">
+                <img src="imagenes/proyectos/2026-terremoto-1.jpg" alt="Voluntaria de la corporación con alimentos recolectados" style="object-position: center 25%">
+                <div class="proyecto-texto">
+                    <span class="anio">2026</span>
+                    <h3>Ayuda por el terremoto</h3>
+                    <p class="barrio"><i class="fa-solid fa-hand-holding-heart"></i> Ayuda comunitaria</p>
+                    <p>Recolección de arroz, mercados y agua para apoyar a las familias afectadas por el terremoto.</p>
+                </div>
+            </article>
+
+            <article class="proyecto" data-anio="2025">
+                <img src="imagenes/proyectos/2025-la-victoria-evento-1.jpg" alt="Equipo de la corporación con niños en La Victoria">
+                <div class="miniaturas">
+                    <img src="imagenes/proyectos/2025-la-victoria-evento-2.jpg" alt="Juegos con los niños">
+                    <img src="imagenes/proyectos/2025-la-victoria-evento-3.jpg" alt="Niños compartiendo alimentos">
+                    <img src="imagenes/proyectos/2025-la-victoria-evento-4.jpg" alt="Niña sonriendo con su refrigerio">
+                </div>
+                <div class="proyecto-texto">
+                    <span class="anio">2025</span>
+                    <h3>Campaña "Regalo del Cielo"</h3>
+                    <p class="barrio"><i class="fa-solid fa-location-dot"></i> Barrio La Victoria</p>
+                    <p>Juegos, refrigerio y almuerzo, oración y un detalle para cada niño.</p>
+                </div>
+            </article>
+
+            <article class="proyecto" data-anio="2025">
+                <img src="imagenes/proyectos/2025-la-victoria-kits-1.jpg" alt="Niños recibiendo kits escolares">
+                <div class="miniaturas">
+                    <img src="imagenes/proyectos/2025-la-victoria-kits-2.jpg" alt="Niños con sus kits escolares">
+                    <img src="imagenes/proyectos/2025-la-victoria-kits-3.jpg" alt="Voluntarios entregando morrales">
+                    <img src="imagenes/proyectos/2025-la-victoria-kits-4.jpg" alt="Morrales y cuadernos listos para entregar">
+                </div>
+                <div class="proyecto-texto">
+                    <span class="anio">2025</span>
+                    <h3>Entrega de kits escolares</h3>
+                    <p class="barrio"><i class="fa-solid fa-location-dot"></i> Barrio La Victoria</p>
+                    <p>Morrales, cuadernos y útiles para que los niños empiecen el año escolar con todo lo necesario.</p>
+                </div>
+            </article>
+
+            <article class="proyecto" data-anio="2025">
+                <img src="imagenes/proyectos/2025-la-victoria-cine-1.jpg" alt="Niños viendo una película al aire libre">
+                <div class="miniaturas">
+                    <img src="imagenes/proyectos/2025-la-victoria-cine-2.jpg" alt="Proyección en la cancha del barrio">
+                    <img src="imagenes/proyectos/2025-la-victoria-cine-3.jpg" alt="Equipo de la corporación con niños">
+                    <img src="imagenes/proyectos/2025-la-victoria-cine-4.jpg" alt="Niña con la bandera de Colombia pintada en la cara">
+                </div>
+                <div class="proyecto-texto">
+                    <span class="anio">2025</span>
+                    <h3>Cine foro al aire libre</h3>
+                    <p class="barrio"><i class="fa-solid fa-location-dot"></i> Barrio La Victoria</p>
+                    <p>Una noche de cine en la cancha del barrio para compartir en comunidad.</p>
+                </div>
+            </article>
+
+            <article class="proyecto" data-anio="2025">
+                <img src="imagenes/proyectos/2025-la-victoria-crecimiento-1.jpg" alt="Jornada de crecimiento y desarrollo">
+                <div class="miniaturas">
+                    <img src="imagenes/proyectos/2025-la-victoria-crecimiento-2.jpg" alt="Familias en la jornada">
+                    <img src="imagenes/proyectos/2025-la-victoria-crecimiento-3.jpg" alt="Atención a familias">
+                    <img src="imagenes/proyectos/2025-la-victoria-crecimiento-4.jpg" alt="Niños y madres en la jornada">
+                </div>
+                <div class="proyecto-texto">
+                    <span class="anio">2025</span>
+                    <h3>Jornada de crecimiento y desarrollo</h3>
+                    <p class="barrio"><i class="fa-solid fa-location-dot"></i> Barrio La Victoria</p>
+                    <p>Atención a niños y familias con el apoyo del Plan de Intervenciones Colectivas (PIC), el HCUP y la Alcaldía.</p>
+                </div>
+            </article>
+
+            <article class="proyecto" data-anio="2025">
+                <img src="imagenes/proyectos/2025-la-victoria-inundaciones-1.jpg" alt="Entrega de alimentos durante las inundaciones">
+                <div class="miniaturas">
+                    <img src="imagenes/proyectos/2025-la-victoria-inundaciones-2.jpg" alt="Familias recibiendo alimentos en la noche">
+                </div>
+                <div class="proyecto-texto">
+                    <span class="anio">2025</span>
+                    <h3>Apoyo en las inundaciones</h3>
+                    <p class="barrio"><i class="fa-solid fa-location-dot"></i> Barrio La Victoria</p>
+                    <p>Acompañamiento y alimentación a las familias afectadas por las inundaciones.</p>
+                </div>
+            </article>
+
+            <article class="proyecto" data-anio="2025">
+                <img src="imagenes/proyectos/2025-el-kiriki-1.jpg" alt="Entrega de regalos a niños en El Kiriki">
+                <div class="miniaturas">
+                    <img src="imagenes/proyectos/2025-el-kiriki-2.jpg" alt="Niños haciendo fila">
+                    <img src="imagenes/proyectos/2025-el-kiriki-3.jpg" alt="Juegos en la calle del barrio">
+                    <img src="imagenes/proyectos/2025-el-kiriki-4.jpg" alt="Voluntarias preparando refrigerios">
+                </div>
+                <div class="proyecto-texto">
+                    <span class="anio">2025</span>
+                    <h3>Campaña "Regalo del Cielo"</h3>
+                    <p class="barrio"><i class="fa-solid fa-location-dot"></i> Barrio El Kiriki</p>
+                    <p>Juegos, alimentación, oración y entrega de detalles para los niños del barrio.</p>
+                </div>
+            </article>
+
+            <article class="proyecto" data-anio="2024">
+                <img src="imagenes/proyectos/2024-la-victoria-1.jpg" alt="Gran grupo de niños celebrando en La Victoria">
+                <div class="miniaturas">
+                    <img src="imagenes/proyectos/2024-la-victoria-2.jpg" alt="Equipo con la Policía Comunitaria">
+                    <img src="imagenes/proyectos/2024-la-victoria-3.jpg" alt="Niños dibujando en mesas">
+                    <img src="imagenes/proyectos/2024-la-victoria-4.jpg" alt="Niñas coloreando">
+                </div>
+                <div class="proyecto-texto">
+                    <span class="anio">2024</span>
+                    <h3>Campaña "Regalo del Cielo"</h3>
+                    <p class="barrio"><i class="fa-solid fa-location-dot"></i> Barrio La Victoria</p>
+                    <p>Dibujo, juegos, alimentación y actividades con el acompañamiento de la Policía.</p>
+                </div>
+            </article>
+
+            <article class="proyecto" data-anio="2024">
+                <img src="imagenes/proyectos/2024-el-kiriki-1.jpg" alt="Equipo de voluntarios en El Kiriki">
+                <div class="miniaturas">
+                    <img src="imagenes/proyectos/2024-el-kiriki-2.jpg" alt="Carrera de bicicletas">
+                    <img src="imagenes/proyectos/2024-el-kiriki-3.jpg" alt="Niños almorzando">
+                    <img src="imagenes/proyectos/2024-el-kiriki-4.jpg" alt="Niños compartiendo la comida">
+                </div>
+                <div class="proyecto-texto">
+                    <span class="anio">2024</span>
+                    <h3>Campaña "Regalo del Cielo"</h3>
+                    <p class="barrio"><i class="fa-solid fa-location-dot"></i> Barrio El Kiriki</p>
+                    <p>Carrera de bicicletas, juegos tradicionales, almuerzo compartido y entrega de juguetes.</p>
+                </div>
+            </article>
+
+            <article class="proyecto" data-anio="2024">
+                <img src="imagenes/proyectos/2024-el-camello-1.jpg" alt="Niños reunidos en el polideportivo de El Camello">
+                <div class="miniaturas">
+                    <img src="imagenes/proyectos/2024-el-camello-2.jpg" alt="Cientos de niños en las graderías">
+                    <img src="imagenes/proyectos/2024-el-camello-3.jpg" alt="Voluntaria con un niño">
+                    <img src="imagenes/proyectos/2024-el-camello-4.jpg" alt="Juegos en el polideportivo">
+                </div>
+                <div class="proyecto-texto">
+                    <span class="anio">2024</span>
+                    <h3>Campaña "Regalo del Cielo"</h3>
+                    <p class="barrio"><i class="fa-solid fa-location-dot"></i> Barrio El Camello</p>
+                    <p>Una gran celebración con cientos de niños, juegos y el acompañamiento de la Policía Comunitaria.</p>
+                </div>
+            </article>
+
+            <article class="proyecto" data-anio="2023">
+                <img src="imagenes/proyectos/2023-la-victoria-1.jpg" alt="Niños con sus morrales nuevos">
+                <div class="miniaturas">
+                    <img src="imagenes/proyectos/2023-la-victoria-2.jpg" alt="Niños mostrando sus morrales">
+                    <img src="imagenes/proyectos/2023-la-victoria-3.jpg" alt="Niños reunidos">
+                    <img src="imagenes/proyectos/2023-la-victoria-4.jpg" alt="Niños en la calle del barrio">
+                </div>
+                <div class="proyecto-texto">
+                    <span class="anio">2023</span>
+                    <h3>Entrega de morrales</h3>
+                    <p class="barrio"><i class="fa-solid fa-location-dot"></i> Barrio La Victoria</p>
+                    <p>Entrega de morrales escolares a los niños del barrio.</p>
+                </div>
+            </article>
+
+            <article class="proyecto" data-anio="2023">
+                <img src="imagenes/proyectos/2023-el-kiriki-1.jpg" alt="Niños celebrando en El Kiriki">
+                <div class="miniaturas">
+                    <img src="imagenes/proyectos/2023-el-kiriki-2.jpg" alt="Juegos con los niños">
+                    <img src="imagenes/proyectos/2023-el-kiriki-3.jpg" alt="Preparando la comida">
+                    <img src="imagenes/proyectos/2023-el-kiriki-4.jpg" alt="Sirviendo la comida a los niños">
+                </div>
+                <div class="proyecto-texto">
+                    <span class="anio">2023</span>
+                    <h3>Campaña "Regalo del Cielo"</h3>
+                    <p class="barrio"><i class="fa-solid fa-location-dot"></i> Barrio El Kiriki</p>
+                    <p>Alimentación, juegos y alegría compartida con los niños y sus familias.</p>
+                </div>
+            </article>
+
+            <article class="proyecto" data-anio="2022">
+                <img src="imagenes/proyectos/2022-la-victoria-1.jpg" alt="Niños y jóvenes reunidos en La Victoria">
+                <div class="miniaturas">
+                    <img src="imagenes/proyectos/2022-la-victoria-2.jpg" alt="Niños celebrando bajo los banderines">
+                    <img src="imagenes/proyectos/2022-la-victoria-3.jpg" alt="Niña sonriendo">
+                    <img src="imagenes/proyectos/2022-la-victoria-4.jpg" alt="Niños sentados en las mesas">
+                </div>
+                <div class="proyecto-texto">
+                    <span class="anio">2022</span>
+                    <h3>Campaña "Regalo del Cielo"</h3>
+                    <p class="barrio"><i class="fa-solid fa-location-dot"></i> Barrio La Victoria</p>
+                    <p>Juegos, comida y regalos para los niños del barrio.</p>
+                </div>
+            </article>
+
+            <article class="proyecto" data-anio="2021">
+                <img src="imagenes/proyectos/2021-pueblo-nuevo-1.jpg" alt="Niños con la cara pintada compartiendo comida">
+                <div class="miniaturas">
+                    <img src="imagenes/proyectos/2021-pueblo-nuevo-2.jpg" alt="Jóvenes compartiendo comida">
+                    <img src="imagenes/proyectos/2021-pueblo-nuevo-3.jpg" alt="Niños celebrando">
+                    <img src="imagenes/proyectos/2021-pueblo-nuevo-4.jpg" alt="Niños sentados en un taller">
+                </div>
+                <div class="proyecto-texto">
+                    <span class="anio">2021</span>
+                    <h3>Nuestros primeros pasos</h3>
+                    <p class="barrio"><i class="fa-solid fa-location-dot"></i> Barrio Pueblo Nuevo, calle 18</p>
+                    <p>Talleres, pintucaritas y alimentación: así empezó a crecer esta semilla.</p>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- Visor de fotos en grande (se llena con script.js) -->
+    <div class="visor" id="visor">
+        <button class="visor-cerrar" aria-label="Cerrar"><i class="fa-solid fa-xmark"></i></button>
+        <button class="flecha visor-anterior" aria-label="Foto anterior"><i class="fa-solid fa-chevron-left"></i></button>
+        <img src="" alt="">
+        <button class="flecha visor-siguiente" aria-label="Foto siguiente"><i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+
+    <!-- ===================== LLAMADO A AYUDAR ===================== -->
+    <section class="llamado">
+        <div class="llamado-contenido">
+            <h2>Ayúdanos a llegar a más barrios</h2>
+            <p>Cada jornada es posible gracias a personas como tú.</p>
+            <div class="llamado-botones">
+                <a href="contacto.html#donar" class="boton boton-blanco"><i class="fa-solid fa-heart"></i> Quiero donar</a>
+                <a href="contacto.html" class="boton boton-borde-blanco">Contáctanos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== PIE DE PÁGINA ===================== -->
+    <footer class="pie">
+        <div class="pie-contenido">
+            <div class="pie-marca">
+                <img src="imagenes/logo.png" alt="Logo Corporación Semilla de Fe">
+                <div>
+                    <strong>Corporación Semilla de Fe<br>del Bajo Cauca</strong>
+                    <p>Sembrando amor, cultivando esperanza y transformando vidas.</p>
+                </div>
+            </div>
+            <div class="pie-columna">
+                <h4>Contacto</h4>
+                <p><i class="fa-solid fa-location-dot"></i> Calle 18 #14A-35, Barrio Centenario, Caucasia, Antioquia</p>
+                <p><i class="fa-solid fa-phone"></i> <a href="tel:+573147490549">314 749 0549</a></p>
+                <p><i class="fa-solid fa-envelope"></i> <a href="mailto:semilladefebajocauca@gmail.com">semilladefebajocauca@gmail.com</a></p>
+            </div>
+            <div class="pie-columna">
+                <h4>Enlaces rápidos</h4>
+                <div class="pie-enlaces">
+                    <a href="index.html">Inicio</a>
+                    <a href="proyectos.html">Proyectos</a>
+                    <a href="nosotros.html">Nosotros</a>
+                    <a href="contacto.html">Contacto</a>
+                    <a href="programas.html">Programas</a>
+                    <a href="contacto.html#donar">Donar</a>
+                </div>
+            </div>
+            <div class="pie-columna">
+                <h4>Síguenos</h4>
+                <div class="redes">
+                    <a href="#" class="red-facebook" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="red-instagram" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="red-youtube" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://wa.me/573147490549?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20la%20Corporaci%C3%B3n%20Semilla%20de%20Fe." target="_blank" rel="noopener" class="red-whatsapp" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                <p class="derechos">© 2026 Corporación Semilla de Fe del Bajo Cauca.<br>Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
